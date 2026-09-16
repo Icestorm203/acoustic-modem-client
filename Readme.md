@@ -8,11 +8,15 @@ Acoustic Modem Client — учебный консольный клиент на 
 ## 📌 Требования
 
 Для запуска проекта необходимы:
-- Windows 10 / 11
-- MSVC toolchain (cl.exe)
-- Cursor IDE или Visual Studio 2022
-- Winsock2 (входит в Windows SDK)
+- Windows 10/11 
+- Visual Studio 2026
 - Акустический модем или тестовый TCP‑сервер по адресу: 10.78.1.1:9200
+
+Необходимые компоненты Build Tools(скачивается с Visual Studio):
+- MSVC v145 
+- MSBuild — для сборки через терминал.
+- Windows 10/11 SDK — обязателен для Winsock2.
+- C++ x64/x86 build tools
 
 ## 🚀 Возможности
 - Один исполняемый файл `Client.exe`
